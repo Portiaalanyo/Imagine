@@ -78,3 +78,46 @@ const tweet1 = {
 
 car.owner.driver.name = 'Nadu';
 console.log(car.owner.driver.name);
+
+
+
+// functions
+// defining functions
+function login(username,password) {
+  if (username == 'palvo'&& password == '1234') {
+    return 'user is loggedin!';
+  } else  if (username != 'palvo') {
+    return 'invalid username!';
+  } else if (password != '1234') {
+    return 'invalid password';
+  } else {
+    return 'invalid username or password!';  
+  }
+ }
+ // invoking functions
+ login('palvo', '1234');
+ 
+ 
+ // Basic Arithmetic
+ 12+34;
+ 45-16;
+ 7*12;
+ 78/4;
+ 78%4
+ 
+ // comparison operators
+ 2 === 2;
+ 3!== 3;
+ 
+ // Built -in Math functions
+ Math.round(37/24);
+ Math.floor(37/24);
+ Math.ceil(37/24);
+ Math.random();
+ Math.max(78, 14, 89);
+ 
+ // Order of operations
+ 2*4+5-4 /2 % 3
+ 
+ // Handling user inputs
+ 1200 + Number('250');
