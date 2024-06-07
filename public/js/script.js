@@ -121,3 +121,27 @@ function login(username,password) {
  
  // Handling user inputs
  1200 + Number('250');
+
+
+
+ // string concatenation
+const firstname = 'Portia';
+const lastname = 'Alanyo';
+firstname.trim() + ' ' + lastname.trim();
+
+// template literal
+`${firstname.trim()} ${lastname.trim()}`;
+
+// string methods
+firstname.length;
+lastname.length;
+`${firstname.trim()} ${lastname.trim()}`.length;
+(firstname.trim() + ' ' + lastname.trim()).length;
+firstname.toUpperCase();
+lastname.toLowerCase();
+lastname.charAt(4);
+
+`${firstname.trim().charAt(0)} ${lastname.trim().charAt(0)}`;
+
+// String conversion
+String(2014);
