@@ -146,3 +146,39 @@ lastname.charAt(4);
 // String conversion
 String(2014);
 
+// write a function that will take a user with firstname,lastname and return fullname;
+const user = {
+  firstname:'Portia',
+  lastname: 'Alanyo'
+}
+function fullname(user) {
+   return {
+     ...user,
+     fullname: `${user.firstname} ${user.lastname};`
+   }
+ }
+
+fullname(user);
+
+// Array map
+const users = [
+  {firstname: 'linda', lastname:'parker'},
+  {firstname: 'mark', lastname:'twine'},
+  {firstname: 'Oliver', lastname:'Queen'},
+  {firstname:'Elom', lastname:'Sena'},
+  {firstname:'Senyo', lastname:'Sam'}
+]
+users.map(fullname);
+
+// Map and return squares of numbers
+function square(number){
+  return number ** 2;
+}
+const numbers =[0,1,2,3,4,5]
+numbers.map(square)
+
+// Filter and return even numbers
+function even (number){
+  return number % 2 === 0; 
+}
+numbers.filter(even);
